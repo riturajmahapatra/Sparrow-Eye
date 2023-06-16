@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sparrow Eye</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 
@@ -16,14 +18,15 @@
         <div class="box">
             <div class="dropdown"></div>
             <ul>
-                <li><button class="dropbtn-1">Home</button></li>
-                <li><button onclick="myFunction()" class="dropbtn">Services</button></li>
+                <li><button class="dropbtn-1"><i class="fa-solid fa-house"></i> Home</button></li>
+                <li><button onclick="myFunction()" class="dropbtn"> <i class="fa-sharp fa-solid fa-file"></i>
+                        Services</button></li>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                 </div>
-                <li><button class="dropbtn-2">Contact Us</button></li>
+                <li><button class="dropbtn-2"><i class="fa-sharp fa-solid fa-address-card"></i> Contact Us</button></li>
             </ul>
 
 
@@ -34,11 +37,16 @@
     </div>
     <div class="bg-img">
         <div class="hero-header">
+            <div class="address flex">
+                <h3><a href="mailto:email@example.com">info@sparroweye.com</a></h3>
+                <h3><a href="secondemail@example.com">personalmail@gmail.com</a></h3>
+                <h3><a href=“tel:555-666-7777”>555-666-7777</a></h3>
+            </div>
             <h1 class="hero-header-h1 ">Grow Your Buisness with us</h1>
             <span id="element"></span>
         </div>
         <div class="btn">
-            <button class="btn-1">Contact Us</button>
+            <button class="btn-1"> Contact Us <i class="fa-solid fa-phone"></i></button>
         </div>
     </div>
 
@@ -81,6 +89,8 @@
                 <img style="width: 400px;" src="male2.png" alt="male2">
             </div>
         </section>
+        
+        <hr class="hr">
         <section class="hero-section-2">
             <h1 class="main-section">Lorem ipsum dolor sit amet.</h1>
             <h3 class="body-section">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eos voluptatem
@@ -126,7 +136,7 @@
 
 
         <section>
-            <h2 class="h2" style="text-align:center">OUR PRICING</h2>
+            <h2 class="h2" style="text-align:center"><i class="fa-solid fa-tag"></i> OUR PRICING</h2>
             <div class="pricing ">
                 <div class="basic">
                     <h2 class="heading">BASIC</h2>
@@ -136,7 +146,9 @@
                     </h3>
                     <h3>Free Maintenance up to 06 Month
                     </h3>
-                     <button class="pricing1 "><h1 >INR 4999 </h1></button>
+                    <button class="pricing1 ">
+                        <h1>INR 4999/- </h1>
+                    </button>
                 </div>
                 <div class="popular">
                     <h2 class="heading">POPULAR</h2>
@@ -145,7 +157,9 @@
                     <h3>Business Email Id
                     </h3>
                     <h3>Free Maintenance up to 1 Year </h3>
-                     <button class="pricing1"><h1 >INR 7999 </h1></button>
+                    <button class="pricing1">
+                        <h1>INR 7999/- </h1>
+                    </button>
                 </div>
                 <div class="buisness">
                     <h2 class="heading">BUISNESS</h2>
@@ -157,7 +171,9 @@
                     </h3>
                     <h3>Free Maintenance up to 1.5 Years
                     </h3>
-                     <button class="pricing1"><h1 >INR 12999 </h1></button>
+                    <button class="pricing1">
+                        <h1>INR 12999/- </h1>
+                    </button>
                 </div>
             </div>
         </section>
