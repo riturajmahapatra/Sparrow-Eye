@@ -112,12 +112,13 @@
 
 }
 
+
 .bg-img {
     background-image: url(spenser-sembrat-vRclGKeW3z4-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
+    padding: 50px;
     opacity: 0.9;
 }
 
@@ -178,7 +179,10 @@
 
 .container {
     display: flex;
-}
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
+}    
 
 ul {
     display: flex;
