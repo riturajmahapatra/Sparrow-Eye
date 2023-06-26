@@ -183,6 +183,10 @@
     width: 100vw;
     z-index: 3;
 }    
+.contactUs{
+    text-decoration: none;
+    color: white;
+}
 
 ul {
     display: flex;
